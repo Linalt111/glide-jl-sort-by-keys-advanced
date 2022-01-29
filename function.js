@@ -3,7 +3,7 @@ window.function = function (data, sort_keys, delimiter, sort_type, sort_order, l
   if (sort_keys.value === undefined) return undefined;
   var delim = delimiter.value ? delimiter.value : ',';
   var sorttype = sort_type.value ? sort_type.value : 'numerical';
-  var ordering = sort_order.value ? sort_order.value : 'desc';
+  var ordering = sort_order.value ? sort_order.value : 'asc';
 
   var data_arr = data.value.split(delim);
   var keys_arr = sort_keys.value.split(delim);
