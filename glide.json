@@ -17,7 +17,7 @@
       },
       {
         "name": "delimiter",
-        "displayName": "String delimiter (Otional: default: ,)",
+        "displayName": "String delimiter (Optional: default: ,)",
         "type": "string"
       },
       {
@@ -27,7 +27,7 @@
       },
       {
         "name": "sort_order",
-        "displayName": "Ordering (Optional: asc, desc. Default: desc)",
+        "displayName": "Ordering (Optional: asc, desc. Default: asc)",
         "type": "string"
       },
       {
